@@ -1,0 +1,24 @@
+# Redundant scripts
+step6_train_gru.py
+step7_convert_onnx.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# ML models
+*.pt
+*.pth
+*.onnx
+
+# Generated audio
+*.wav
+*.mp3
+
+# Model directories
+models/
